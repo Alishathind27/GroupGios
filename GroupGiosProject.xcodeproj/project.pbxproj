@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9B02252D2384587700694AAF /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B02252C2384587700694AAF /* Users.swift */; };
+		9B02252F2384967700694AAF /* RoomTypesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B02252E2384967700694AAF /* RoomTypesTableViewController.swift */; };
+		9B0225312384990200694AAF /* RoomTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0225302384990200694AAF /* RoomTypes.swift */; };
+		9B02253323849F3D00694AAF /* ImageTypesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B02253223849F3D00694AAF /* ImageTypesCollectionViewController.swift */; };
 		9B56B65E238323F7002AED67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B56B65D238323F7002AED67 /* AppDelegate.swift */; };
 		9B56B660238323F7002AED67 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B56B65F238323F7002AED67 /* SceneDelegate.swift */; };
 		9B56B662238323F7002AED67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B56B661238323F7002AED67 /* ViewController.swift */; };
@@ -21,6 +24,9 @@
 
 /* Begin PBXFileReference section */
 		9B02252C2384587700694AAF /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		9B02252E2384967700694AAF /* RoomTypesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomTypesTableViewController.swift; sourceTree = "<group>"; };
+		9B0225302384990200694AAF /* RoomTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomTypes.swift; sourceTree = "<group>"; };
+		9B02253223849F3D00694AAF /* ImageTypesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTypesCollectionViewController.swift; sourceTree = "<group>"; };
 		9B56B65A238323F7002AED67 /* GroupGiosProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroupGiosProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B56B65D238323F7002AED67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B56B65F238323F7002AED67 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,8 +74,11 @@
 				9B56B67123832875002AED67 /* background.jpg */,
 				9B56B65D238323F7002AED67 /* AppDelegate.swift */,
 				9B56B65F238323F7002AED67 /* SceneDelegate.swift */,
-				9B56B661238323F7002AED67 /* ViewController.swift */,
 				9B88DC4523834CB000B34B3E /* RegisterViewController.swift */,
+				9B56B661238323F7002AED67 /* ViewController.swift */,
+				9B02253223849F3D00694AAF /* ImageTypesCollectionViewController.swift */,
+				9B0225302384990200694AAF /* RoomTypes.swift */,
+				9B02252E2384967700694AAF /* RoomTypesTableViewController.swift */,
 				9B02252C2384587700694AAF /* Users.swift */,
 				9B56B663238323F7002AED67 /* Main.storyboard */,
 				9B56B666238323F7002AED67 /* Assets.xcassets */,
@@ -156,6 +165,9 @@
 				9B56B65E238323F7002AED67 /* AppDelegate.swift in Sources */,
 				9B02252D2384587700694AAF /* Users.swift in Sources */,
 				9B56B660238323F7002AED67 /* SceneDelegate.swift in Sources */,
+				9B02252F2384967700694AAF /* RoomTypesTableViewController.swift in Sources */,
+				9B0225312384990200694AAF /* RoomTypes.swift in Sources */,
+				9B02253323849F3D00694AAF /* ImageTypesCollectionViewController.swift in Sources */,
 				9B88DC4623834CB000B34B3E /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
