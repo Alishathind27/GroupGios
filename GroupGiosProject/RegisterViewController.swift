@@ -39,6 +39,7 @@ class RegisterViewController: UIViewController
         
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(viewtapped))
         self.view.addGestureRecognizer(tapGesture)
+        print("hello")
     }
     
     
