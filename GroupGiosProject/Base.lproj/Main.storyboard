@@ -180,7 +180,7 @@
                         <barButtonItem image="arrowshape.turn.up.right.fill" catalog="system" id="sNb-4s-xgf">
                             <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                             <connections>
-                                <segue destination="Tz1-pd-hhp" kind="show" id="iD7-AZ-M8D"/>
+                                <segue destination="Tz1-pd-hhp" kind="show" id="nOQ-Kh-C2x"/>
                             </connections>
                         </barButtonItem>
                     </toolbarItems>
@@ -207,7 +207,6 @@
         <!--Room Types Table View Controller-->
         <scene sceneID="I8x-Qt-sQ5">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="EqR-9M-Eks" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tableViewController id="Tz1-pd-hhp" customClass="RoomTypesTableViewController" customModule="GroupGiosProject" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="vCx-rR-gFz">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -222,7 +221,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="zp5-Ep-Pth" kind="show" id="Eno-ye-FfN"/>
+                                    <segue destination="zp5-Ep-Pth" kind="show" id="Z7i-T6-0F0"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -233,6 +232,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" id="Usi-lr-rfu"/>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EqR-9M-Eks" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1398" y="-747"/>
         </scene>
