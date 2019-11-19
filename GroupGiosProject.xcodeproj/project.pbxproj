@@ -11,6 +11,7 @@
 		9B02252F2384967700694AAF /* RoomTypesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B02252E2384967700694AAF /* RoomTypesTableViewController.swift */; };
 		9B0225312384990200694AAF /* RoomTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0225302384990200694AAF /* RoomTypes.swift */; };
 		9B02253323849F3D00694AAF /* ImageTypesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B02253223849F3D00694AAF /* ImageTypesCollectionViewController.swift */; };
+		9B0225362384AF0300694AAF /* roomimages in Resources */ = {isa = PBXBuildFile; fileRef = 9B0225352384AF0300694AAF /* roomimages */; };
 		9B56B65E238323F7002AED67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B56B65D238323F7002AED67 /* AppDelegate.swift */; };
 		9B56B660238323F7002AED67 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B56B65F238323F7002AED67 /* SceneDelegate.swift */; };
 		9B56B662238323F7002AED67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B56B661238323F7002AED67 /* ViewController.swift */; };
@@ -27,6 +28,7 @@
 		9B02252E2384967700694AAF /* RoomTypesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomTypesTableViewController.swift; sourceTree = "<group>"; };
 		9B0225302384990200694AAF /* RoomTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomTypes.swift; sourceTree = "<group>"; };
 		9B02253223849F3D00694AAF /* ImageTypesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTypesCollectionViewController.swift; sourceTree = "<group>"; };
+		9B0225352384AF0300694AAF /* roomimages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = roomimages; sourceTree = "<group>"; };
 		9B56B65A238323F7002AED67 /* GroupGiosProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroupGiosProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B56B65D238323F7002AED67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B56B65F238323F7002AED67 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 		9B56B65C238323F7002AED67 /* GroupGiosProject */ = {
 			isa = PBXGroup;
 			children = (
+				9B0225352384AF0300694AAF /* roomimages */,
 				9B56B67523832F8A002AED67 /* logo.jpg */,
 				9B56B67123832875002AED67 /* background.jpg */,
 				9B56B65D238323F7002AED67 /* AppDelegate.swift */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B56B66A238323F7002AED67 /* LaunchScreen.storyboard in Resources */,
+				9B0225362384AF0300694AAF /* roomimages in Resources */,
 				9B56B67623832F8B002AED67 /* logo.jpg in Resources */,
 				9B56B67223832875002AED67 /* background.jpg in Resources */,
 				9B56B667238323F7002AED67 /* Assets.xcassets in Resources */,
