@@ -11,12 +11,13 @@
         <!--Navigation Controller-->
         <scene sceneID="E5P-7a-qUj">
             <objects>
-                <navigationController id="ofP-dB-h6B" sceneMemberID="viewController">
+                <navigationController toolbarHidden="NO" id="ofP-dB-h6B" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0Az-cG-mWN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="VhE-il-3gB">
+                        <rect key="frame" x="0.0" y="623" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </toolbar>
                     <connections>
@@ -40,7 +41,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2aK-IK-EJB">
-                                <rect key="frame" x="75" y="93" width="225" height="84"/>
+                                <rect key="frame" x="75" y="55" width="225" height="73"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal" title="Book Now">
@@ -53,10 +54,10 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="2aK-IK-EJB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="BTg-bu-2CE"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2aK-IK-EJB" secondAttribute="trailing" constant="75" id="HSq-qG-vVZ"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="2aK-IK-EJB" secondAttribute="bottom" constant="490" id="OR5-dE-q8j"/>
-                            <constraint firstItem="2aK-IK-EJB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="49" id="TK3-vW-tOJ"/>
+                            <constraint firstItem="2aK-IK-EJB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="NcL-fw-hwO"/>
+                            <constraint firstItem="2aK-IK-EJB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="11" id="ivQ-Uh-cj8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2aK-IK-EJB" secondAttribute="trailing" constant="75" id="ju6-5g-oAN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="2aK-IK-EJB" secondAttribute="bottom" constant="490" id="mcc-Fh-lc5"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -127,17 +128,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="iv0-my-h2l">
-                                <rect key="frame" x="64" y="92" width="247" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <segments>
-                                    <segment title="SignIn"/>
-                                    <segment title="SignUp"/>
-                                </segments>
-                                <connections>
-                                    <action selector="SegmentControl:" destination="OVC-IG-K6h" eventType="valueChanged" id="rJJ-P4-WZr"/>
-                                </connections>
-                            </segmentedControl>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ra7-ek-oND">
                                 <rect key="frame" x="199" y="279" width="160" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -170,21 +160,32 @@
                                     <action selector="signIn:" destination="OVC-IG-K6h" eventType="touchUpInside" id="N0e-ym-3Gb"/>
                                 </connections>
                             </button>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ehm-Zh-jjR">
-                                <rect key="frame" x="281" y="623" width="94" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <items>
-                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="XId-s2-A9v"/>
-                                    <barButtonItem image="arrowshape.turn.up.right.fill" catalog="system" width="179" id="8hX-Wh-fBg">
-                                        <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
-                                    </barButtonItem>
-                                </items>
-                            </toolbar>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="iv0-my-h2l">
+                                <rect key="frame" x="64" y="95" width="247" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="SignIn"/>
+                                    <segment title="SignUp"/>
+                                </segments>
+                                <connections>
+                                    <action selector="SegmentControl:" destination="OVC-IG-K6h" eventType="valueChanged" id="rJJ-P4-WZr"/>
+                                </connections>
+                            </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="V4R-UJ-V0p"/>
                     </view>
+                    <toolbarItems>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="5om-Ei-Uas"/>
+                        <barButtonItem image="arrowshape.turn.up.right.fill" catalog="system" id="sNb-4s-xgf">
+                            <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <connections>
+                                <segue destination="Tz1-pd-hhp" kind="show" id="iD7-AZ-M8D"/>
+                            </connections>
+                        </barButtonItem>
+                    </toolbarItems>
                     <navigationItem key="navigationItem" id="dD8-Wc-Sd4" colorLabel="IBBuiltInLabel-Gray"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="EmailLabel" destination="tKU-Zf-TXQ" id="ItD-7z-fCZ"/>
                         <outlet property="EmailTF" destination="IKR-hU-qWz" id="tbs-Dd-kHZ"/>
@@ -201,7 +202,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="quy-Dd-D2a" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="548" y="-659"/>
+            <point key="canvasLocation" x="548" y="-659.82008995502258"/>
         </scene>
         <!--Room Types Table View Controller-->
         <scene sceneID="I8x-Qt-sQ5">
@@ -220,6 +221,9 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="zp5-Ep-Pth" kind="show" id="Eno-ye-FfN"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -227,6 +231,7 @@
                             <outlet property="delegate" destination="Tz1-pd-hhp" id="CtT-Mj-QZr"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" id="Usi-lr-rfu"/>
                 </tableViewController>
             </objects>
             <point key="canvasLocation" x="1398" y="-747"/>
@@ -267,6 +272,7 @@
                             <outlet property="delegate" destination="zp5-Ep-Pth" id="rdM-Wd-cCw"/>
                         </connections>
                     </collectionView>
+                    <navigationItem key="navigationItem" id="Scf-NC-6eS"/>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VaQ-uV-LcT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
